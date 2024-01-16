@@ -1,0 +1,48 @@
+/**
+ * @(#)AssignmentsAndStrings.java
+ *
+ * AssignmentsAndStrings application
+ *
+ * @author 
+ * @version 1.00 2023/9/28
+ */
+ 
+public class AssignmentsAndStrings {
+    
+    public static void main(String[] args) {
+    	
+    // = is used as assignment operator	
+    int num1 = 10;//Declaration and Initialization
+    int num2 = 5;
+    
+    int sum = num1 + num2;	
+    	
+    	System.out.println("the sum of num1 and num2 is" + " " + sum);
+    	
+    int a = 5;
+    int b = 3;
+    
+    int result = 0;//Declaration
+    result+=a; //result = result + a
+    result-=b; //result = result - b
+    	
+    	
+    System.out.println(result);	
+    	
+    System.out.println(sum);
+     
+     //string are sequence of character 
+     //enclosed in double quotes " " 
+    String firstname = "christian";
+     String lastname = "tanzo";
+     
+     //concatenation - combining of strings using '+' '" "'
+    String fullname = firstname + " " + lastname;
+    
+    System.out.println(fullname);
+    	
+    	
+    	
+    	
+    }
+}
